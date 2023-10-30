@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: itiaadi/cicd-pipeline:1
+        image: itiaadi/maven-abhishek-docker-agent:1
         ports:
         - containerPort: 8080
