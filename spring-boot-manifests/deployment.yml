@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: itiaadi/maven-abhishek-docker-agent:1
+        image: itiaadi/maven-abhishek-docker-agent:replaceImageTag
         ports:
         - containerPort: 8080
